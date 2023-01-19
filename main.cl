@@ -1,4 +1,25 @@
 
+(defparameter *name2* 'Derek)
+
+(format t "(eq *name 'Derek) = ~d ~%" (eq *name2* 'Derek)) ;; eq is for symbols
+
+(format t "(equal 'car 'truck) = ~d ~%" (equal 'car 'truck))
+(format t "(equal 10 10) = ~d ~%" (equal 'car 'truck))
+(format t "(equal 5.4 5.4) = ~d ~%" (equal 5.4 5.4))
+
+(format t "(equal \"string\" \"String\") = ~d ~%"
+(equal "string" "String")
+)
+
+(format t "(equal (list 1 2 3) (list 1 2 3)) = ~d ~%"
+(equal (list 1 2 3) (list 1 2 3))
+)
+
+
+
+
+
+
 
 
 (format t "(expt 4 2) = ~d ~%" (expt 4 2))
