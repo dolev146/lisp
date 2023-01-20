@@ -1,5 +1,16 @@
 
+
+
+
+;; stopped at 18:13
+
+
+
 (defparameter *name2* 'Derek)
+
+(format t "(equalp 1.0 1) = ~d ~%" (equalp 1.0 1)) ; T
+(format t "(equalp \"Dolevd\" \"dolevd\") = ~d ~%" (equalp "Dolevd" "dolevd")) ; T
+
 
 (format t "(eq *name 'Derek) = ~d ~%" (eq *name2* 'Derek)) ;; eq is for symbols
 
@@ -14,11 +25,6 @@
 (format t "(equal (list 1 2 3) (list 1 2 3)) = ~d ~%"
 (equal (list 1 2 3) (list 1 2 3))
 )
-
-
-
-
-
 
 
 
